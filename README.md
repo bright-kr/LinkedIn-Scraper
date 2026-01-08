@@ -1,6 +1,6 @@
 # Linkedin Scraper
 
-[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/products/web-scraper/linkedin) 
+[![Promo](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/products/web-scraper/linkedin) 
 
 이 리포지토리는 LinkedIn에서 데이터를 수집하는 두 가지 방법을 제공합니다:
 1. **무료**: 소규모 프로젝트, 실험 및 학습 목적에 적합한 훌륭한 옵션입니다.
@@ -35,7 +35,7 @@
 1. **LinkedIn Jobs Scraper**: 포괄적인 메타데이터와 함께 채용 공고 목록을 수집합니다.
 2. **LinkedIn Profile Validator**: LinkedIn 프로필 및 회사 URL을 검증합니다.
 
-<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin-jobs" src="https://github.com/luminati-io/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin-jobs.png" />
+<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin-jobs" src="https://github.com/bright-kr/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin-jobs.png" />
 
 ### 1. Jobs Scraper
 LinkedIn의 채용 검색에서 채용 공고 목록을 수집합니다.
@@ -59,12 +59,12 @@ LinkedIn 프로필 또는 회사 페이지가 존재하는지 확인합니다.
 
 #### Prerequisites
 - Python 3.9 이상
-- [requirements.txt](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/requirements.txt)에 나열된 필수 패키지
+- [requirements.txt](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/requirements.txt)에 나열된 필수 패키지
 
 #### Installation
 시작을 위한 간단한 3단계입니다:
 ```bash
-git clone https://github.com/luminati-io/LinkedIn-Scraper.git
+git clone https://github.com/bright-kr/LinkedIn-Scraper.git
 cd LinkedIn-Scraper
 pip install -r requirements.txt
 ```
@@ -122,7 +122,7 @@ LinkedIn에서 데이터를 수집할 때 다양한 안티 스크레이핑 조�
 
 수동 Webスクレイピング은 소규모 프로젝트에는 작동하지만, 규모가 커질수록 점점 더 어려워집니다. 신뢰할 수 있고 효율적이며 확장 가능한 LinkedIn 데이터 수집을 위해 **Bright Data**는 시간과 리소스를 절감하면서 더 높은 품질의 결과를 제공하는 우수한 솔루션을 제공합니다.
 
-[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/products/web-scraper/linkedin) 
+[![Promo](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/products/web-scraper/linkedin) 
 
 ## Method 2: Bright Data LinkedIn Scraper API
 견고하고 확장 가능한 LinkedIn スクレイピング 솔루션을 위해 [Bright Data LinkedIn Scraper API](https://brightdata.co.kr/products/web-scraper/linkedin)를 고려해 보시기 바랍니다. 고려할 가치가 있는 이유는 다음과 같습니다:
@@ -149,7 +149,7 @@ Bright Data LinkedIn Scraper API는 개발자가 LinkedIn 프로필, 회사, 채
 ### 1. Company Information Scraper
 LinkedIn URL을 사용하여 회사에 대한 상세 데이터를 추출합니다.
 
-<img width="797" alt="linkedin-scraper-bright-data-screenshot-linkedin-company-information-by-url" src="https://github.com/luminati-io/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin-company-information-by-url.png" />
+<img width="797" alt="linkedin-scraper-bright-data-screenshot-linkedin-company-information-by-url" src="https://github.com/bright-kr/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin-company-information-by-url.png" />
 
 
 #### Input Parameters
@@ -183,7 +183,7 @@ LinkedIn URL을 사용하여 회사에 대한 상세 데이터를 추출합니�
 }
 ```
 
-👉 여기에는 주요 필드만 표시되어 있습니다. 전체 データセット은 [JSON response sample](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_company_info.json)을 참조하십시오.
+👉 여기에는 주요 필드만 표시되어 있습니다. 전체 データセット은 [JSON response sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_company_info.json)을 참조하십시오.
 
 #### Code Example
 데이터를 추출하려면 목록의 회사 URL을 수정하십시오:
@@ -198,12 +198,12 @@ companies = [
 ]
 ```
 
-👉 [Full Python Code](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_company_info_by_url.py) 보기
+👉 [Full Python Code](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_company_info_by_url.py) 보기
 
 ### 2. Profile by URL
 개별 LinkedIn 프로필에서 상세 정보를 가져옵니다.
 
-<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin-people-profiles-by-url" src="https://github.com/luminati-io/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin-people-profiles-by-url.png" />
+<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin-people-profiles-by-url" src="https://github.com/bright-kr/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin-people-profiles-by-url.png" />
 
 #### Input Parameters
 | Parameter   | Type   | Required | Description                           |
@@ -233,7 +233,7 @@ companies = [
 }
 ```
 
-👉 여기에는 주요 필드만 표시되어 있습니다. 전체 データセット은 [JSON response sample](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/profiles_by_url.json)을 참조하십시오.
+👉 여기에는 주요 필드만 표시되어 있습니다. 전체 データセット은 [JSON response sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/profiles_by_url.json)을 참조하십시오.
 
 #### Code Example
 분석하려는 LinkedIn 프로필로 URL을 교체하십시오.
@@ -246,12 +246,12 @@ profiles = [
 ]
 ```
 
-👉 [Full Python Code](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_profile_by_url.py) 보기
+👉 [Full Python Code](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_profile_by_url.py) 보기
 
 ### 3. Profile Discovery
 이름 기반 쿼리를 사용하여 LinkedIn 프로필을 검색합니다.
 
-<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin-people-profiles-by-name" src="https://github.com/luminati-io/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin-people-profiles-by-name.png" />
+<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin-people-profiles-by-name" src="https://github.com/bright-kr/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin-people-profiles-by-name.png" />
 
 #### Input Parameters
 | Parameter     | Type   | Required | Description                                         |
@@ -297,7 +297,7 @@ profiles = [
     "url": "https://www.linkedin.com/in/richard-branson-8a38866",
 }
 ```
-👉 [Full JSON Response Sample](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/profiles_by_name.json) 보기
+👉 [Full JSON Response Sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/profiles_by_name.json) 보기
 
 #### Code Example
 프로필을 찾기 위해 이름과 성 필드를 수정하십시오.
@@ -307,12 +307,12 @@ people = [
     {"first_name": "Bill", "last_name": "Gates"},
 ]
 ```
-👉 [Full Python Code](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_profile_by_name.py) 보기
+👉 [Full Python Code](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_profile_by_name.py) 보기
 
 ### 4. Posts by URL
 특정 LinkedIn 게시물에 대한 상세 정보를 수집합니다.
 
-<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin-posts-by-url" src="https://github.com/luminati-io/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin-posts-by-url.png" />
+<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin-posts-by-url" src="https://github.com/bright-kr/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin-posts-by-url.png" />
 
 #### Input Parameters
 | Parameter | Type   | Required | Description              |
@@ -349,7 +349,7 @@ people = [
 }
 ```
 
-👉 [Full JSON Response Sample](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_posts_url.json) 보기
+👉 [Full JSON Response Sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_posts_url.json) 보기
 
 #### Code Example
 분석하려는 LinkedIn 게시물 링크로 URL을 교체하십시오.
@@ -370,12 +370,12 @@ posts = [
     },
 ]
 ```
-👉 [Full Python Code](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_posts_by_url.py) 보기
+👉 [Full Python Code](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_posts_by_url.py) 보기
 
 ### 5. Posts Discovery by URL
 사용자가 작성했거나 상호작용한 LinkedIn 아티클에 대한 상세 데이터를 찾습니다.
 
-<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin-posts-discover-by-url" src="https://github.com/luminati-io/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin-posts-discover-by-url.png" />
+<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin-posts-discover-by-url" src="https://github.com/bright-kr/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin-posts-discover-by-url.png" />
 
 #### Input Parameters
 | Parameter | Type   | Required | Description                     |
@@ -415,7 +415,7 @@ posts = [
     ],
 }
 ```
-👉 [Full JSON Response Sample](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/discovered_posts_by_url.json) 보기
+👉 [Full JSON Response Sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/discovered_posts_by_url.json) 보기
 
 #### Code Example
 특정 LinkedIn 프로필에서 아티클을 가져오려면 `url` 및 `limit` 필드를 업데이트하십시오.
@@ -430,13 +430,13 @@ authors = [
     },
 ]
 ```
-👉 [Full Python Code](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_posts_discover_by_url.py) 보기
+👉 [Full Python Code](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_posts_discover_by_url.py) 보기
 
 
 ### 6. Posts Discovery by Profile
 특정 LinkedIn 프로필이 작성했거나 상호작용한 모든 게시물을 탐색합니다.
 
-<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin_posts_by_profile_url" src="https://github.com/luminati-io/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin_posts_by_profile_url.png" />
+<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin_posts_by_profile_url" src="https://github.com/bright-kr/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin_posts_by_profile_url.png" />
 
 #### Input Parameters
 | Parameter    | Type   | Required | Description                                                             |
@@ -477,7 +477,7 @@ authors = [
     ],
 }
 ```
-👉 [Full JSON Response Sample](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/posts_by_profile.json) 보기
+👉 [Full JSON Response Sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/posts_by_profile.json) 보기
 
 #### Code Example
 특정 LinkedIn 프로필에서 게시물을 수집하려면 프로필 URL과 날짜 범위를 수정하십시오.
@@ -499,12 +499,12 @@ profiles = [
     },
 ]
 ```
-👉 [Full Python Code](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_posts_by_profile_url.py) 보기
+👉 [Full Python Code](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_posts_by_profile_url.py) 보기
 
 ### 7. Posts Discovery by Company
 회사 페이지의 게시물 및 업데이트를 수집합니다.
 
-<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin_posts_by_company_url" src="https://github.com/luminati-io/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin_posts_by_company_url.png" />
+<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin_posts_by_company_url" src="https://github.com/bright-kr/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin_posts_by_company_url.png" />
 
 #### Input Parameters
 | Parameter    | Type   | Required | Description                                                             |
@@ -539,7 +539,7 @@ profiles = [
 }
 ```
 
-👉 [Full JSON Response Sample](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_posts_company_url.json) 보기
+👉 [Full JSON Response Sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_posts_company_url.json) 보기
 
 #### Code Example
 특정 회사 페이지에서 게시물을 가져오려면 회사 URL 및 날짜 범위를 사용자 지정하십시오.
@@ -551,12 +551,12 @@ companies = [
 ]
 ```
 
-👉 [Full Python Code](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_posts_by_company_url.py) 보기
+👉 [Full Python Code](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_posts_by_company_url.py) 보기
 
 ### 8. Job Listings Collection by URL
 URL을 사용하여 특정 채용 공고에 대한 전체 정보를 추출합니다.
 
-<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin_jobs_by_url" src="https://github.com/luminati-io/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin_jobs_by_url.png" />
+<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin_jobs_by_url" src="https://github.com/bright-kr/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin_jobs_by_url.png" />
 
 #### Input Parameters
 | Parameter | Type   | Required | Description                  |
@@ -599,7 +599,7 @@ URL을 사용하여 특정 채용 공고에 대한 전체 정보를 추출합니
 }
 ```
 
-👉 [Full JSON Response Sample](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_jobs_url.json) 보기
+👉 [Full JSON Response Sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_jobs_url.json) 보기
 
 #### Code Example
 특정 채용 공고에 대한 정보를 수집하려면 채용 URL을 업데이트하십시오.
@@ -610,13 +610,13 @@ job_searches = [
 ]
 ```
 
-👉 [Full Python Code](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_jobs_by_url.py) 보기
+👉 [Full Python Code](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_jobs_by_url.py) 보기
 
 
 ### 9. Job Listings Discovery by Keyword
 고급 검색 기준 및 필터를 사용하여 채용 공고를 추출하고 관련 기회를 찾습니다.
 
-<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin_jobs_by_keyword" src="https://github.com/luminati-io/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin_jobs_by_keyword.png" />
+<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin_jobs_by_keyword" src="https://github.com/bright-kr/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin_jobs_by_keyword.png" />
 
 #### Input Parameters
 | Parameter          | Type    | Required | Description                                                                                      |
@@ -685,7 +685,7 @@ job_searches = [
 }
 ```
 
-👉 [Full JSON Response Sample](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_jobs_keyword.json) 보기
+👉 [Full JSON Response Sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_jobs_keyword.json) 보기
 
 #### Code Example
 다양한 위치와 요구사항에서 특정 채용 기회를 찾도록 이러한 검색 기준을 사용자 지정하십시오.
@@ -724,12 +724,12 @@ search_criteria = [
 ]
 ```
 
-👉 [Full Python Code](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_jobs_by_keyword.py) 보기
+👉 [Full Python Code](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_jobs_by_keyword.py) 보기
 
 ### 10. Job Listings Discovery by URL
 직접 LinkedIn 검색 URL을 사용하여 채용 공고를 추출합니다
 
-<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin_jobs_by_search_url" src="https://github.com/luminati-io/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin_jobs_by_search_url.png" />
+<img width="700" alt="linkedin-scraper-bright-data-screenshot-linkedin_jobs_by_search_url" src="https://github.com/bright-kr/LinkedIn-Scraper/blob/main/LinkedIn%20Images/linkedin-scraper-bright-data-screenshot-linkedin_jobs_by_search_url.png" />
 
 #### Input Parameters
 | Parameter          | Type    | Required | Description                                                                                       |
@@ -792,7 +792,7 @@ search_criteria = [
 }
 ```
 
-👉 [Full JSON Response Sample](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_jobs_search_url.json) 보기
+👉 [Full JSON Response Sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_jobs_search_url.json) 보기
 
 #### Code Example
 특정 회사 또는 검색 결과에서 채용 공고를 수집하려면 이러한 검색 URL을 수정하십시오.
@@ -806,7 +806,7 @@ search_urls[
 ]
 ```
 
-👉 [Full Python Code](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_jobs_by_search_url.py) 보기
+👉 [Full Python Code](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_codes/linkedin_jobs_by_search_url.py) 보기
 
 
 ## Data Collection Approaches
