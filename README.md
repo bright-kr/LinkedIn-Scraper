@@ -41,8 +41,8 @@
 LinkedIn의 채용 검색에서 채용 공고 목록을 수집합니다.
 
 **주요 기능**:
-- 상세 채용 공고(직무명, 회사, 위치, URL, 게시 날짜)를 スクレイピング합니다.
-- 내장 レート制限 및 오류 처리
+- 상세 채용 공고(직무명, 회사, 위치, URL, 게시 날짜)를 스크레이핑합니다.
+- 내장 속도 제한 및 오류 처리
 - 깔끔한 JSON 출력
 
 ### 2. Profile Checker
@@ -50,7 +50,7 @@ LinkedIn 프로필 또는 회사 페이지가 존재하는지 확인합니다.
 
 **주요 기능**:
 - 프로필/회사 URL 확인
-- 실패한 リクエスト 자동 リトライ
+- 실패한 요청 자동 재시도
 - 각 URL에 대한 상세 상태 표시
 - 여러 URL을 한 번에 확인 가능
 
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 스크레이퍼를 사용하는 방법은 다음과 같습니다:
 
 #### 1. Jobs Scraper
-검색 パラメータ를 구성합니다:
+검색 매개변수를 구성합니다:
 ```python
 # In jobs_scraper.py
 params = {
@@ -115,29 +115,29 @@ test_urls = [
 
 ## Common Scraping Challenges with Free Method
 LinkedIn에서 데이터를 수집할 때 다양한 안티 스크레이핑 조치를 만나게 됩니다. 알아두셔야 할 내용은 다음과 같습니다:
-1. **Rate Limiting**: LinkedIn은 IPアドレス당 リクエスト 빈도를 엄격하게 모니터링합니다. 이러한 제한을 초과하면 일시적 또는 영구적인 IP 차단으로 이어집니다.
+1. **Rate Limiting**: LinkedIn은 IP 주소당 요청 빈도를 엄격하게 모니터링합니다. 이러한 제한을 초과하면 일시적 또는 영구적인 IP 차단으로 이어집니다.
 2. **CAPTCHA Detection**: LinkedIn은 비정상적인 브라우징 패턴을 감지하면 CAPTCHA 챌린지를 제시하여 자동화된 접근을 차단합니다.
-3. **Authentication Barriers**: 가장 가치 있는 LinkedIn 데이터의 대부분은 認証이 필요합니다. 플랫폼은 자동화된 로그인 시도를 쉽게 감지하고 차단합니다.
+3. **Authentication Barriers**: 가장 가치 있는 LinkedIn 데이터의 대부분은 인증이 필요합니다. 플랫폼은 자동화된 로그인 시도를 쉽게 감지하고 차단합니다.
 4. **Technical Challenges**: 추가 장벽으로는 페이지네이션 처리, 동적 콘텐츠 로딩, 불완전한 데이터 포인트, LinkedIn 광고 탐색 등이 포함됩니다.
 
-수동 Webスクレイピング은 소규모 프로젝트에는 작동하지만, 규모가 커질수록 점점 더 어려워집니다. 신뢰할 수 있고 효율적이며 확장 가능한 LinkedIn 데이터 수집을 위해 **Bright Data**는 시간과 리소스를 절감하면서 더 높은 품질의 결과를 제공하는 우수한 솔루션을 제공합니다.
+수동 Web스크레이핑은 소규모 프로젝트에는 작동하지만, 규모가 커질수록 점점 더 어려워집니다. 신뢰할 수 있고 효율적이며 확장 가능한 LinkedIn 데이터 수집을 위해 **Bright Data**는 시간과 리소스를 절감하면서 더 높은 품질의 결과를 제공하는 우수한 솔루션을 제공합니다.
 
 [![Promo](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/products/web-scraper/linkedin) 
 
 ## Method 2: Bright Data LinkedIn Scraper API
-견고하고 확장 가능한 LinkedIn スクレイピング 솔루션을 위해 [Bright Data LinkedIn Scraper API](https://brightdata.co.kr/products/web-scraper/linkedin)를 고려해 보시기 바랍니다. 고려할 가치가 있는 이유는 다음과 같습니다:
+견고하고 확장 가능한 LinkedIn 스크레이핑 솔루션을 위해 [Bright Data LinkedIn Scraper API](https://brightdata.co.kr/products/web-scraper/linkedin)를 고려해 보시기 바랍니다. 고려할 가치가 있는 이유는 다음과 같습니다:
 
 ### Key Benefits
-- **인프라 설정 불필요:** プロキシ, CAPTCHA, 스로틀링을 자동으로 처리합니다.
+- **인프라 설정 불필요:** 프록시, CAPTCHA, 스로틀링을 자동으로 처리합니다.
 - **확장 가능하고 신뢰할 수 있음:** 대용량 및 실시간 데이터 추출에 최적화되어 있습니다.
 - **포괄적 커버리지:** 프로필, 채용, 회사, 게시물에서 데이터를 추출합니다.
 - **글로벌 접근:** 모든 지역과 언어를 지원합니다.
 - **개인정보 준수:** GDPR 및 CCPA 표준을 완전히 준수합니다.
-- **종량제(Pay-as-You-Go):** 성공한 レスポンス에 대해서만 비용을 지불합니다.
+- **종량제(Pay-as-You-Go):** 성공한 응답에 대해서만 비용을 지불합니다.
 - **무료 체험:** 시작을 위한 무료 API 호출 20회를 포함합니다.
 
 ## Getting Started with the LinkedIn Scraper API
-Bright Data LinkedIn Scraper API는 개발자가 LinkedIn 프로필, 회사, 채용 공고, 게시물의 공개 데이터를 프로그래밍 방식으로 추출할 수 있게 합니다. 이 엔터프라이즈급 솔루션은 プロキシ 관리, リクエスト 스로틀링, 데이터 파싱을 포함한 복잡한 인프라 요구사항을 처리합니다.
+Bright Data LinkedIn Scraper API는 개발자가 LinkedIn 프로필, 회사, 채용 공고, 게시물의 공개 데이터를 프로그래밍 방식으로 추출할 수 있게 합니다. 이 엔터프라이즈급 솔루션은 프록시 관리, 요청 스로틀링, 데이터 파싱을 포함한 복잡한 인프라 요구사항을 처리합니다.
 
 시작하기 전에 다음이 필요합니다:
 - Bright Data 계정
@@ -183,7 +183,7 @@ LinkedIn URL을 사용하여 회사에 대한 상세 데이터를 추출합니�
 }
 ```
 
-👉 여기에는 주요 필드만 표시되어 있습니다. 전체 データセット은 [JSON response sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_company_info.json)을 참조하십시오.
+👉 여기에는 주요 필드만 표시되어 있습니다. 전체 데이터셋은 [JSON response sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/linkedin_company_info.json)을 참조하십시오.
 
 #### Code Example
 데이터를 추출하려면 목록의 회사 URL을 수정하십시오:
@@ -233,7 +233,7 @@ companies = [
 }
 ```
 
-👉 여기에는 주요 필드만 표시되어 있습니다. 전체 データセット은 [JSON response sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/profiles_by_url.json)을 참조하십시오.
+👉 여기에는 주요 필드만 표시되어 있습니다. 전체 데이터셋은 [JSON response sample](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/linkedin_scraper_api_data/profiles_by_url.json)을 참조하십시오.
 
 #### Code Example
 분석하려는 LinkedIn 프로필로 URL을 교체하십시오.
@@ -737,7 +737,7 @@ search_criteria = [
 | `url`              | string  | Yes      | 직접 LinkedIn 검색 URL(예: 회사 검색 또는 키워드 기반 검색)                        |
 | `selective_search` | boolean | No       | `true`로 설정하면 지정한 키워드를 포함하지 않는 제목을 제외합니다                 |
 
-> **Note:** 시간 범위 필터를 구현하려면 원하는 범위를 초 단위로 계산(`hours * 3600`)한 후 LinkedIn 검색 URL의 `&f_TPR` パラメータ를 업데이트하십시오.
+> **Note:** 시간 범위 필터를 구현하려면 원하는 범위를 초 단위로 계산(`hours * 3600`)한 후 LinkedIn 검색 URL의 `&f_TPR` 매개변수를 업데이트하십시오.
 >
 > - 지난 1시간: `f_TPR=r3600` 사용  
 > - 지난 24시간: `f_TPR=r86400` 사용  
@@ -810,7 +810,7 @@ search_urls[
 
 
 ## Data Collection Approaches
-다음 パラメータ를 사용하여 결과를 세밀하게 조정할 수 있습니다:
+다음 매개변수를 사용하여 결과를 세밀하게 조정할 수 있습니다:
 | **Parameter**       | **Type**   | **Description**                                            | **Example**                  |
 |---------------------|------------|------------------------------------------------------------|------------------------------|
 | `limit`             | `integer`  | 입력당 최대 결과 수                                   | `limit=10`                   |
